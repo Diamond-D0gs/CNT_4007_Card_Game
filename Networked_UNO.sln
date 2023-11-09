@@ -5,8 +5,6 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Networked_UNO", "Networked_UNO\Networked_UNO.vcxproj", "{3C228BAD-9074-4717-A75A-7D7EF72FDB5B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sockpp-static", "Networked_UNO\libraries\sockpp\build\sockpp-static.vcxproj", "{0BFB11A9-0F04-349B-A2DF-CF9D3C8F9E0E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -35,22 +33,6 @@ Global
 		{3C228BAD-9074-4717-A75A-7D7EF72FDB5B}.RelWithDebInfo|x64.Build.0 = Release|x64
 		{3C228BAD-9074-4717-A75A-7D7EF72FDB5B}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
 		{3C228BAD-9074-4717-A75A-7D7EF72FDB5B}.RelWithDebInfo|x86.Build.0 = Release|Win32
-		{0BFB11A9-0F04-349B-A2DF-CF9D3C8F9E0E}.Debug|x64.ActiveCfg = Debug|x64
-		{0BFB11A9-0F04-349B-A2DF-CF9D3C8F9E0E}.Debug|x64.Build.0 = Debug|x64
-		{0BFB11A9-0F04-349B-A2DF-CF9D3C8F9E0E}.Debug|x86.ActiveCfg = Debug|x64
-		{0BFB11A9-0F04-349B-A2DF-CF9D3C8F9E0E}.Debug|x86.Build.0 = Debug|x64
-		{0BFB11A9-0F04-349B-A2DF-CF9D3C8F9E0E}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
-		{0BFB11A9-0F04-349B-A2DF-CF9D3C8F9E0E}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
-		{0BFB11A9-0F04-349B-A2DF-CF9D3C8F9E0E}.MinSizeRel|x86.ActiveCfg = MinSizeRel|x64
-		{0BFB11A9-0F04-349B-A2DF-CF9D3C8F9E0E}.MinSizeRel|x86.Build.0 = MinSizeRel|x64
-		{0BFB11A9-0F04-349B-A2DF-CF9D3C8F9E0E}.Release|x64.ActiveCfg = Release|x64
-		{0BFB11A9-0F04-349B-A2DF-CF9D3C8F9E0E}.Release|x64.Build.0 = Release|x64
-		{0BFB11A9-0F04-349B-A2DF-CF9D3C8F9E0E}.Release|x86.ActiveCfg = Release|x64
-		{0BFB11A9-0F04-349B-A2DF-CF9D3C8F9E0E}.Release|x86.Build.0 = Release|x64
-		{0BFB11A9-0F04-349B-A2DF-CF9D3C8F9E0E}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
-		{0BFB11A9-0F04-349B-A2DF-CF9D3C8F9E0E}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
-		{0BFB11A9-0F04-349B-A2DF-CF9D3C8F9E0E}.RelWithDebInfo|x86.ActiveCfg = RelWithDebInfo|x64
-		{0BFB11A9-0F04-349B-A2DF-CF9D3C8F9E0E}.RelWithDebInfo|x86.Build.0 = RelWithDebInfo|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

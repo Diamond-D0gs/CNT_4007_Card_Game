@@ -104,7 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\gabeg\OneDrive\Documents\College\Networked_UNO\Networked_UNO\libraries\sockpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -139,11 +139,6 @@
     <ClInclude Include="cards.hpp" />
     <ClInclude Include="card_respository.hpp" />
     <ClInclude Include="player.hpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="libraries\sockpp\build\sockpp-static.vcxproj">
-      <Project>{0bfb11a9-0f04-349b-a2df-cf9d3c8f9e0e}</Project>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
