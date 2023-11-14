@@ -130,7 +130,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="card_repository.cpp" />
-    <ClCompile Include="game_server.cpp" />
+    <ClCompile Include="client_handler.cpp" />
+    <ClCompile Include="server_handler.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="network_handler.cpp" />
     <ClCompile Include="network_handler.hpp" />
@@ -139,7 +140,8 @@
   <ItemGroup>
     <ClInclude Include="cards.hpp" />
     <ClInclude Include="card_respository.hpp" />
-    <ClInclude Include="game_server.hpp" />
+    <ClInclude Include="client_handler.hpp" />
+    <ClInclude Include="server_handler.hpp" />
     <ClInclude Include="player.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

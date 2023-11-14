@@ -6,7 +6,9 @@
 #include <random>
 
 int main(void) {
-	auto test = networked_UNO::network_handler::start_networking();
+	networked_UNO::network_handler* test = networked_UNO::network_handler::start_networking();
+	if (test == nullptr)
+		return -1;
 
 	return 0;
 }

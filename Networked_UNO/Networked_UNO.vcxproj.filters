@@ -30,7 +30,10 @@
     <ClCompile Include="network_handler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="game_server.cpp">
+    <ClCompile Include="server_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client_handler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -44,7 +47,10 @@
     <ClInclude Include="card_respository.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="game_server.hpp">
+    <ClInclude Include="server_handler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="client_handler.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
