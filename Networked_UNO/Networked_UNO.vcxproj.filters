@@ -44,7 +44,7 @@
     <ClInclude Include="player.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="card_respository.hpp">
+    <ClInclude Include="card_repository.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="server_handler.hpp">

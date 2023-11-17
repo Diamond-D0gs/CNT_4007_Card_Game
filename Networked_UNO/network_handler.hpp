@@ -1,5 +1,7 @@
 #pragma once
 
+#pragma comment(lib, "ws2_32.lib")
+
 #include <WinSock2.h>
 #include <winsock.h>
 
@@ -23,11 +25,10 @@ namespace networked_UNO {
 		network_handler(SOCKET tcp_socket)
 			: tcp_socket(tcp_socket) {}
 
-		virtual ~network_handler() = default;
+		virtual ~network_handler();
 
 	public:
 		static network_handler* start_networking();
-		static bool terminate_networking(network_handler* network_handler);
 
 		virtual bool send_data(const std::vector<char>& data) = 0;
 		virtual std::optional<std::vector<char>> receive_data() = 0;

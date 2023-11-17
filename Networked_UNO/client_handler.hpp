@@ -3,8 +3,6 @@
 #include "network_handler.hpp"
 
 namespace networked_UNO {
-	class network_handler;
-
 	class client_handler : public network_handler {
 	private:
 		client_handler(SOCKET tcp_socket)
